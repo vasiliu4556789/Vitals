@@ -23,7 +23,7 @@ Vitals is a GNOME extension for displaying your computer's temperature, voltage,
 ### 2a) Download from GitHub (either perform step 2a or 2b, not both)
 
     mkdir -p ~/.local/share/gnome-shell/extensions
-    git clone https://github.com/vasiliu4556789/Vitals.git ~/.local/share/gnome-shell/extensions/Vitals@CoreCoding.com
+    git clone https://github.com/corecoding/Vitals.git ~/.local/share/gnome-shell/extensions/Vitals@CoreCoding.com
 
 ### 2b) Download from extensions.gnome.org
 
