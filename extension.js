@@ -136,7 +136,7 @@ const VitalsMenuButton = new Lang.Class({
         // round monitor button
         let monitorButton = panelSystem._createActionButton('utilities-system-monitor-symbolic', _("System Monitor"));
         monitorButton.connect('clicked', function() {
-            Util.spawn(["gnome-system-monitor"]);
+            Util.spawn(["gnome-usage"]);
         });
         item.actor.add(monitorButton, { expand: true, x_fill: false }); // 3.34?
 
